@@ -16,4 +16,4 @@ function getShoppingTotal(products){
 
 }
 const total = getShoppingTotal(products);
-console.log('total ajke khosabe' ,total);
+console.log('total ajke khosabe' ,total); 
