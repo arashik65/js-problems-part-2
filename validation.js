@@ -1,3 +1,5 @@
+
+//number type check
 function multiplay (num1 , num2){
   if(typeof num1 !== 'number' || typeof num2 !== 'number' ){
     return 'please provide a number';
@@ -10,6 +12,7 @@ function multiplay (num1 , num2){
 const result = multiplay('5','seven');
 // console.log(result);
 
+//string type check
 function fullName (first, second){
     if(typeof first!=='string'){
         return 'First name should be a strng';
@@ -23,7 +26,7 @@ function fullName (first, second){
 const full = fullName('Ashikur', 'Rahman');
 // console.log(full);
 
-
+//object type check
 function getPrice(product){
     if(typeof product!== 'object'){
         return 'please provide an object';
@@ -35,6 +38,8 @@ function getPrice(product){
 // const price = getPrice({name: 'Brush', price:35, color: 'blue'});
 const price = getPrice(5);
 // console.log(price);
+
+//array type check
 function getSecond(numbers) {
     // console.log(typeof numbers); java script e array o ekti object tay array type of korse bole eta object dekhasse 
     if(Array.isArray(numbers) === false){
